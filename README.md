@@ -41,7 +41,7 @@ Open an issue with the skill name and what happened. Pull requests welcome for e
 
 ## Credits
 
-Banner illustration generated with Kimi from a prompt by Kurt Lozier and Claude, 2026-09-16. `assets/social-preview.jpg` is the 1280 by 640 crop for the repository's social preview.
+Banner illustration generated with Kimi from a prompt by Kurt Lozier and Claude, 2026-09-16; the prompt is in `assets/banner-prompt.md`. `assets/social-preview.jpg` is the 1280 by 640 crop for the repository's social preview.
 
 ## License
 
