@@ -58,7 +58,7 @@ Done when: the re-fetched page shows every heading as a heading, every table as 
 
 ### 7. Write the Maven blurb
 
-Match the FDE style: one plain paragraph on what it is, then labeled links one per line with the Notion cover first, then a "worth a look" paragraph with three or four hooks a reader would click for, then a sign-off. Keep it under 200 words. Append it to the local doc under a `## Maven post` heading. If the author has the Maven page open and asks, paste the blurb into the editor and stop before the buttons; see the Maven note in `references/publishing.md`. The author clicks Post or Submit.
+Match the FDE style: one plain paragraph on what it is, then labeled links one per line with the Notion page first (label it "Notion page", since "Submission page" means the Maven page to a classmate), then a "worth a look" paragraph with three or four hooks a reader would click for, then a sign-off. Keep it under 200 words. Append it to the local doc under a `## Maven post` heading. If the author has the Maven page open and asks, paste the blurb into the editor and stop before the buttons; see the Maven note in `references/publishing.md`. The author clicks Post or Submit.
 
 Done when: the blurb is under 200 words, follows the four-part pattern, and is saved in the local doc.
 
