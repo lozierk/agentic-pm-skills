@@ -1,0 +1,16 @@
+{
+  "name": "agentic-pm",
+  "owner": {
+    "name": "Kurt Lozier",
+    "url": "https://github.com/lozierk"
+  },
+  "description": "Claude Code skills for product managers who build with agents.",
+  "plugins": [
+    {
+      "name": "agentic-pm-skills",
+      "source": "./",
+      "description": "Spec wargaming with a cross-vendor red team, and a repeatable course-submission process.",
+      "category": "productivity"
+    }
+  ]
+}
