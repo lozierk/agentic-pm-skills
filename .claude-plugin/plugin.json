@@ -1,6 +1,6 @@
 {
   "name": "agentic-pm-skills",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Claude Code skills for product managers who build with agents: wargame a spec before execution, and turn a course week into a submission.",
   "author": {
     "name": "Kurt Lozier",

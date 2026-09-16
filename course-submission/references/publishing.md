@@ -27,6 +27,8 @@ The brief poses a rubric or a deliverable list. Headings follow the brief's own 
 
 The submission form is a rich-text editor with two buttons, "Post to project channel" and "Submit project", that do different things. When asked to fill it, paste the blurb as plain lines with one link per line, confirm each link rendered as a link, and stop. The author chooses the button.
 
+The editor is ProseMirror. Verified 2026-09-16: browser-automation typing and synthetic Enter keys do not reach it. What works is a JavaScript paste event on the `.ProseMirror[contenteditable="true"]` element with the blurb as `text/plain`. ProseMirror splits it into one paragraph per line, auto-links URLs, and drops empty lines, so the author adds blank lines between paragraphs by hand if wanted. Select the editable element by its contenteditable attribute: the assignment description on the same page is also a ProseMirror node, read-only.
+
 ## Drive archive
 
 `create_file` needs inline base64 for binaries. Upload images to Drive by hand rather than through the API.
