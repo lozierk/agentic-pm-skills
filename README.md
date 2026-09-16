@@ -1,5 +1,9 @@
 # agentic-pm-skills
 
+![A samurai kneels at a low table by lantern light, studying a hand-drawn battle map marked with stones. Armor and sword rest unused against the wall.](assets/banner.jpg)
+
+*Fight the build on paper before anything is built.*
+
 Claude Code skills for product managers who build with agents. Written for the Maven course *Agentic AI for Product Managers* (Cohort 3, September 2026) and open to anyone.
 
 A skill is a folder with a `SKILL.md` file. The file tells Claude Code what the task is, when to do it, the steps in order, and what "done" looks like. Reference files next to it hold the detail Claude reads only when a step needs it.
@@ -34,6 +38,10 @@ Every file here is plain markdown. Open `spec-wargaming/references/01-wargame.md
 ## Contributing
 
 Open an issue with the skill name and what happened. Pull requests welcome for edge cases you hit; keep `SKILL.md` short and push detail into `references/`.
+
+## Credits
+
+Banner illustration generated with Kimi from a prompt by Kurt Lozier and Claude, 2026-09-16. `assets/social-preview.jpg` is the 1280 by 640 crop for the repository's social preview.
 
 ## License
 
