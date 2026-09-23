@@ -1,0 +1,32 @@
+=== run1_first-draft-rules_clean-repo.md ===
+auth-boundary verdict check: ~/AI_Projects/cowork/Agentic_AI_for_Product_Managers-Cohort_3/Assignment_03_Build_SubAgent/examples/run1_first-draft-rules_clean-repo.md
+findings: BLOCKER=0 DEGRADED=5 MINOR=0  sanctioned exceptions: 4
+computed: FAIL
+reported: PASS WITH EXCEPTIONS
+FAIL verdict mismatch: report says PASS WITH EXCEPTIONS, findings say FAIL
+exit: 1
+
+=== run2_tightened-rules_clean-repo.md ===
+auth-boundary verdict check: ~/AI_Projects/cowork/Agentic_AI_for_Product_Managers-Cohort_3/Assignment_03_Build_SubAgent/examples/run2_tightened-rules_clean-repo.md
+findings: BLOCKER=1 DEGRADED=0 MINOR=1  sanctioned exceptions: 4
+computed: FAIL
+reported: FAIL
+PASS verdict matches
+exit: 0
+
+=== run3_final-rules_clean-repo.md ===
+auth-boundary verdict check: ~/AI_Projects/cowork/Agentic_AI_for_Product_Managers-Cohort_3/Assignment_03_Build_SubAgent/examples/run3_final-rules_clean-repo.md
+findings: BLOCKER=0 DEGRADED=0 MINOR=0  sanctioned exceptions: 4
+computed: PASS WITH EXCEPTIONS
+reported: PASS WITH EXCEPTIONS
+PASS verdict matches
+exit: 0
+
+=== run4_final-rules_planted-violations.md ===
+auth-boundary verdict check: ~/AI_Projects/cowork/Agentic_AI_for_Product_Managers-Cohort_3/Assignment_03_Build_SubAgent/examples/run4_final-rules_planted-violations.md
+findings: BLOCKER=3 DEGRADED=1 MINOR=0  sanctioned exceptions: 4
+computed: FAIL
+reported: FAIL
+PASS verdict matches
+exit: 0
+

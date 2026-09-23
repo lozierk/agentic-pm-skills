@@ -17,6 +17,8 @@ A skill is a folder with a `SKILL.md` file. The file tells Claude Code what the 
 
 The `examples/viome-meals/` folder holds a complete spec-wargaming run on a real project: the mission brief, the 23-move wargame, the ledger, the 29-finding external red team, and the verification pass. Two personal email addresses are masked. Nothing else is changed.
 
+The `examples/auth-boundary-auditor/` folder holds a Claude Code subagent from Module 3: a read-only auth-boundary auditor, the allowlist it reads, a script that recomputes its verdict, and four test runs including one against planted violations. Its `README.md` explains how to adapt it.
+
 ## Install as a Claude Code plugin
 
 ```
